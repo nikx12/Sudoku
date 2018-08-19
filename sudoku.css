@@ -1,0 +1,48 @@
+input {
+    display: inline-block;
+    /* float: left; */
+
+    border: 1px  black;
+    width: 40px;
+    height: 40px;
+
+    text-align: center;
+    font-size: 25px;
+    
+}
+input:focus{
+    outline: none;
+}
+div h1{
+    text-align: center;
+}
+
+#sudokudiv{
+    margin-left: 29.5%;
+    width: 300px;
+}
+table{
+    width: auto;
+    height: auto;
+
+    margin-top: 50px;
+    border: 1px solid #000000;
+}
+td {
+    height:30px;
+    width:30px;
+    border:1px solid;
+    text-align:center;
+  }
+  td:first-child {
+    border-left:solid;
+  }
+  td:nth-child(3n) {
+    border-right:solid ;
+  }
+  tr:first-child {
+    border-top:solid;
+  }
+  tr:nth-child(3n) td {
+    border-bottom:solid ;
+  }
